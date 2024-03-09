@@ -8,6 +8,6 @@ import { BrowserRouter } from "react-router-dom";
 
 
 ReactDOM.render(
-  <BrowserRouter><App className='center'/></BrowserRouter> 
+  <BrowserRouter><App/></BrowserRouter> 
   ,document.getElementById('root')
 );
