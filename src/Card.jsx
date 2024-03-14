@@ -20,7 +20,7 @@ function Card() {
    <>
    <div className="container  ">
      <div className="row ">
-      <div className="col-md-6 col-10  col-lg-4 mt-5 mx-auto  ">
+      <div className="col-md-6 col-sm-10 col-10  col-lg-4 mt-5 mx-auto  ">
        <div className="card p-3 content "  >
       <div className="header mt-5">
        <input type="text" placeholder="City Name"  onChange={(e)=>{setcity(e.target.value)}} />
