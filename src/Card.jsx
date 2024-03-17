@@ -19,7 +19,7 @@ function Card() {
    return (
    <>
    <div className="container  ">
-     <div className="row justify-content-center">
+     <div className="row justify-content-evenly">
       <div className="col-md-6 col-sm-8 col-8  col-lg-4 mt-5   ">
        <div className="card p-3 content "  >
       <div className="header mt-5">
