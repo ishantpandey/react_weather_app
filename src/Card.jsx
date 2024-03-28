@@ -20,8 +20,9 @@ function Card() {
    <>
    <div className="container  ">
      <div className="row justify-content-evenly">
-      <div className="col-md-6 col-sm-8 col-8  col-lg-4 mt-5   ">
-       <div className="card p-3 content "  >
+      <div className="col-md-2 col-1"></div>
+      <div className="col-md-8 col-sm-8 col-10  col-lg-4 mt-2 mx-auto  ">
+       <div className="card  content "  >
       <div className="header mt-5">
        <input type="text" placeholder="City Name"  onChange={(e)=>{setcity(e.target.value)}} />
       </div>
@@ -56,7 +57,7 @@ function Card() {
      {(apidata.main)?  <div className="mt-5">Feels Like: {apidata.main.feels_like} °C</div> : null }
     
      <div className="footer mt-5 mb-5">
-     {(apidata.main)?  <div><span> Min :{Math.floor(apidata.main.temp_min)} °C</span></div> : null } 
+     {(apidata.main)?  <div><span> Min :{Math.floor(apidata.main.temp_min-10)} °C</span></div> : null } 
      {(apidata.main)?   <div><span>Max :{Math.floor(apidata.main.temp_max)} °C</span></div> : null }
      
      </div>
@@ -73,6 +74,7 @@ function Card() {
  </div>
         
       </div>
+      <div className="col-md-2 col-1"></div>
      </div>
  
    </div>
